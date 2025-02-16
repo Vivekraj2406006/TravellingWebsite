@@ -1,0 +1,59 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+
+
+/* Testimonials Page */
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(9, 3, 49, 0.1);
+}
+
+h2 {
+    font-size: 1.9em;
+    margin-bottom: 10px;
+}
+
+.star-rating {
+    margin-bottom: 10px;
+}
+
+.star {
+    color: rgb(243, 208, 8);
+    font-size: 1.7em;
+}
+
+
+p {
+    font-size: 1.1em;
+    color: #c00606fd;
+}
+
+
+
+
+

@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+  }
+  .nav-bar{
+    height: 60px;
+    background-color:#222f3d ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position:sticky;
+    width: 100%;
+    top:0;
+  }
+  .nav-logo{
+    display:flex;
+    height: 50px;
+    position: absolute;
+    left: 5px;
+  }
+  
+  .border a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .border{
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .border :hover{
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 10px;
+  }
+  .full-width{
+    height: 600px;
+  }
+  .discount{
+    background-image: url("devils-thumb-full-day.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .enjoy{
+    background-color: crimson;
+    color: white;
+    padding-left: 100px;
+  }
+  .description{
+    margin-top: 30px;
+  }
+  .description p1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+  }
+  .description p{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+  }
+  .button{
+    background-color: rgb(219, 109, 7);
+    color: white;
+    padding: 0.5rem;
+    border-radius:  8px;
+    
+  }
+  .container{
+    height: 650px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    justify-content: space-around;
+    row-gap: 20px;
+    column-gap: 5px;
+    background-image: url("main.jpg");
+    background-size: cover;
+    
+    
+  }
+  .box{
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-size: cover;
+  margin-top: 15px;
+  
+  
+  }
+  .box1{
+    border: 3px solid transparent;
+  }
+  .box1:hover{
+    border: 3px solid white;
+  }
+  .box2{
+    border: 3px solid transparent;
+  }
+  .box2:hover{
+    border: 3px solid white;
+  }
+  .box3{
+    border: 3px solid transparent;
+  }
+  .box3:hover{
+    border: 3px solid white;
+  }
+  .box4{
+    border: 3x solid transparent;
+  }
+  .box4:hover{
+    border: 3px solid white;
+  }
+  .box4{
+    border: 3px solid transparent;
+  }
+  .box4:hover{
+    border: 3px solid white;
+  }
+  .box5{
+    border: 3px solid transparent;
+  }
+  .box5:hover{
+    border: 3px solid white;
+  }.box6{
+    border: 3px solid transparent;
+  }
+  .box6:hover{
+    border: 3px solid white;
+  }
+  .box p{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+  }
+  .special{
+    background-color: crimson;
+    color: white;
+    padding-left: 275px;
+    border-bottom: 2px solid white;
+  
+  }
+  .packages{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: grid;
+    height: 250px;
+    justify-content: space-around;
+    background-color: crimson;
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap: 5px;
+  }
+  
+  .pk{
+    border: 2px solid rgb(63, 3, 3);
+    background-color: darkred;
+    border-radius: 10px;
+  }
+  .pk p{
+    font-size: 14px;
+    color: white;
+    padding-top: 20px;
+  }
+  .pk h2{
+    color: white;
+    font-weight: 700;
+   
+  }
+  .parent{
+    display: flex;
+    justify-content: center;
+    background-color: crimson;
+    height: 30px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+  
+  
+  
+  .last{
+    height: 250px;
+    width: 20%;
+  }
+  .last p{
+    color: white;
+    padding: 8px;
+  }
+  .last h2{
+    color: #f4eeee;
+  }
+  .about{
+    background-color:#222f3d ;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    position: sticky;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
